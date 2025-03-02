@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\pizzashop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\pizzashop.bundle.scp.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\css\\users.css",
+      "PackagePath": "staticwebassets\\css\\users.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\css\\usersfield.css",
+      "PackagePath": "staticwebassets\\css\\usersfield.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\Default_pfp.svg.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\QR.png",
+      "PackagePath": "staticwebassets\\images\\QR.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\dining-menu.png",
+      "PackagePath": "staticwebassets\\images\\dining-menu.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\dominos_background.jpg",
+      "PackagePath": "staticwebassets\\images\\dominos_background.jpg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\arrow-clockwise.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\arrow-clockwise.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\border-all.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\border-all.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\box-arrow-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\box-arrow-right.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\cash-coin.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\cash-coin.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-left.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-right.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\clipboard-check.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\clipboard-check.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\clipboard.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\clipboard.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\cloud-arrow-up.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\cloud-arrow-up.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\customer.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\customer.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\dinner-table.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dinner-table.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\dots-six-vertical-thin-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dots-six-vertical-thin-svgrepo-com.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\list.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\list.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\non-veg-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\non-veg-icon.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\order-value.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\order-value.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\pen.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\pen.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\people.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\people.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\person-gear.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\person-gear.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\person-rolodex.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\person-rolodex.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\plus-square.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\plus-square.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\search.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\search.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\square.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\square.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\total-orders.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\total-orders.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\total-sales.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\total-sales.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\trash.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\trash.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\veg-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\veg-icon.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\vegan-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\vegan-icon.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\waiting-list.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\waiting-list.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\icons\\waiting-time.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\waiting-time.svg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\logos\\icons8-facebook-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-facebook-48.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\logos\\icons8-github-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-github-48.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\logos\\icons8-google-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-google-48.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\logos\\pizzashop_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\pizzashop_logo.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\profile_div_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_div_bg.jpg"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\images\\qr-code.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\toppng.com-warning-icon-2400x2400.png",
+      "PackagePath": "staticwebassets\\images\\toppng.com-warning-icon-2400x2400.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\images\\transperent-pizza.png",
+      "PackagePath": "staticwebassets\\images\\transperent-pizza.png"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Y:\\savviourpizzashop\\pizzashop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.pizzashop.props",
+      "PackagePath": "build\\pizzashop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.pizzashop.props",
+      "PackagePath": "buildMultiTargeting\\pizzashop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.pizzashop.props",
+      "PackagePath": "buildTransitive\\pizzashop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.pizzashop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

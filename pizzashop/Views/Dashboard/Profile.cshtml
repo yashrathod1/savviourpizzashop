@@ -1,0 +1,155 @@
+@model pizzashop_repository.ViewModels.UserTableViewModel
+
+
+<div class=" d-flex mt-3  p-3 justify-content-between ">
+    <div class="h2 blue-color"><strong>Profile</strong></div>
+
+</div>
+
+<div class="bg-white user-box ms-4 me-4 p-3 mt-3">
+
+    <div class="profile-head">
+        <div>
+            <img src="~/images/profile_div_bg.jpg" style="width: 100%; height: 65px;" id="profile-bg" alt="">
+        </div>
+        <div class="avatar d-flex" style="height: 44px;">
+            <img src="~/images/Default_pfp.svg.png" alt=""
+                style="position: relative; top:-30px; height: 90px;left: 18px;">
+            <div class="ps-4 ms-2 mt-1">
+                <h3 class="m-0">@Model.Firstname @Model.Lastname</h3>
+                <p>@Model.Rolename</p>
+            </div>
+            <div class="ms-auto me-2 mt-3">
+                @* using pizzashop.ViewModels; *@
+                <p>@Model.Email</p>
+            </div>
+        </div>
+    </div>
+
+    <form method="post">
+        <div class="text-center">
+            <div class="row row-cols-2 pt-4 mt-1">
+                <div class="col-lg-6 col-12">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" asp-for="Firstname" value="@Model.Firstname"
+                            id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">First Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" asp-for="Lastname" value="@Model.Lastname"
+                            id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Last Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" asp-for="Username" value="@Model.Username"
+                            id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">User Name</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" asp-for="Phone" value="@Model.Phone" id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">Phone</label>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 col-12  mb-3">
+                        <select class="form-select dropdown" asp-for="Country" id="Country">
+                            <option value="">@Model.Country</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-12  mb-3">
+                        <select class="form-select" asp-for="State" id="State">
+                            <option>@Model.State</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-12 mb-3">
+                        <select class="form-select" asp-for="City" id="City">
+                            <option>@Model.City</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-8 col-12 form-floating">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" asp-for="Address" value="@Model.Address"
+                                id="floatingInput" placeholder="Address">
+                            <label for="floatingInput">Address</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 form-floating">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" asp-for="Zipcode" value="@Model.Zipcode"
+                                id="floatingInput" placeholder="Zipcode">
+                            <label for="floatingInput">Zipcode</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-1 mb-1 d-flex justify-content-end">
+            <button type="submit" class="btn navbar-color text-white" asp-action="Profile"
+                asp-controller="Dashboard">Update</button>
+            <button type="button" class="btn cancel-btn-color ms-1">Cancel</button>
+        </div>
+    </form>
+
+    @* @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    } *@
+</div>
+
+<script>
+    $(document).ready(function () {
+        console.log("jQuery is working!");
+
+        // Fetch and populate countries on page load
+        $.getJSON('/GetData/GetCountries', function (data) {
+            $("#Country").html('<option selected>@(Model.Country)</option>');
+            $.each(data, function (index, country) {
+                $("#Country").append(`<option value="${country.countryId}">${country.countryName}</option>`);
+            });
+        });
+
+        // Fetch states when a country is selected
+        $("#Country").change(function () {
+            debugger
+            var countryId = $(this).val();
+            $("#State").html('<option value="">Select State</option>').prop("disabled", true);
+            $("#City").html('<option value="">Select City</option>').prop("disabled", true);
+
+            if (countryId) {
+                $.getJSON(`/GetData/GetStates?countryId=${countryId}`, function (data) {
+                    $("#State").prop("disabled", false);
+                    $.each(data, function (index, state) {
+                        $("#State").append(`<option value="${state.stateId}">${state.stateName}</option>`);
+                    });
+                });
+            }
+        });
+
+        // Fetch cities when a state is selected
+        $("#State").change(function () {
+            var stateId = $(this).val();
+            $("#City").html('<option value="">Select City</option>').prop("disabled", true);
+
+            if (stateId) {
+                $.getJSON(`/GetData/GetCities?stateId=${stateId}`, function (data) {
+                    $("#City").prop("disabled", false);
+                    $.each(data, function (index, city) {
+                        $("#City").append(`<option value="${city.cityId}">${city.cityName}</option>`);
+                    });
+                });
+            }
+        });
+    });
+</script>
