@@ -253,4 +253,59 @@ public class UserService : IUserService
 
         return true;
     }
+
+    public EditUserViewModel GetUserForEdit(int id)
+    {
+        var user = _userRepository.GetUserById(id);
+
+        if (user == null) return null;
+
+        return new EditUserViewModel
+        {
+            id = user.Id,
+            Firstname = user.Firstname,
+            Lastname = user.Lastname,
+            Email = user.Email,
+            Username = user.Username,
+            Phone = user.Phone,
+            Status = user.Status,
+            RoleId = user.Roleid,
+            Country = user.Country,
+            State = user.State,
+            City = user.City,
+            Address = user.Address,
+            Zipcode = user.Zipcode
+        };
+    }
+
+    public bool EditUser(int id, EditUserViewModel model)
+    {
+        var user = _userRepository.GetUserById(id);
+        if (user == null) return false;
+
+        var countryname = _context.Countries.FirstOrDefault(c => c.Id.ToString() == model.Country);
+        var statename = _context.States.FirstOrDefault(c => c.Id.ToString() == model.State);
+        var cityname = _context.Cities.FirstOrDefault(c => c.Id.ToString() == model.City);
+
+        model.Country = countryname?.Countryname;
+        model.State = statename?.Statename;
+        model.City = cityname?.Cityname;
+
+
+        user.Firstname = model.Firstname;
+        user.Lastname = model.Lastname;
+        user.Email = model.Email;
+        user.Username = model.Username;
+        user.Phone = model.Phone;
+        user.Status = model.Status;
+        user.Roleid = model.RoleId;
+        user.Country = model.Country;
+        user.State = model.State;
+        user.City = model.City;
+        user.Address = model.Address;
+        user.Zipcode = model.Zipcode;
+
+        _userRepository.UpdateUser(user);
+        return true;
+    }
 }

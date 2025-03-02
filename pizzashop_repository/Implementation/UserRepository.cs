@@ -34,9 +34,9 @@ public class UserRepository : IUserRepository
 
     public User? GetUserByEmailAndRole(string email)
     {
-         return _context.Users
-                .Include(u => u.Role)
-                .FirstOrDefault(u => u.Email == email);
+        return _context.Users
+               .Include(u => u.Role)
+               .FirstOrDefault(u => u.Email == email);
     }
 
     public IQueryable<User> GetUsersQuery()
@@ -54,7 +54,7 @@ public class UserRepository : IUserRepository
         user.Isdeleted = true;
         _context.SaveChanges();
     }
-    
+
     public List<Role> GetRoles()
     {
         return _context.Roles.ToList();
@@ -65,11 +65,17 @@ public class UserRepository : IUserRepository
         return _context.Roles.FirstOrDefault(r => r.Id == id);
     }
 
-     public void AddUser(User user)
+    public void AddUser(User user)
     {
         _context.Users.Add(user);
         _context.SaveChanges();
     }
+
+    public User? GetUserByIdAndRole(int id)
+    {
+        return _context.Users.Include(u => u.Role).FirstOrDefault(u => u.Id == id);
+    }
+
 
 
 }

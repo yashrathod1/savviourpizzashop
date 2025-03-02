@@ -46,7 +46,7 @@ public class UsersController : Controller
     }
 
     [HttpPost("AddUser")]
-    public IActionResult AddUser( AddUserViewModel model)
+    public IActionResult AddUser(AddUserViewModel model)
     {
         ViewBag.Roles = _userService.GetRoles();
 
@@ -62,4 +62,35 @@ public class UsersController : Controller
 
         return View(model);
     }
+
+    [HttpGet("EditUser/{id}")]
+    public IActionResult EditUser(int id)
+    {
+        var model = _userService.GetUserForEdit(id);
+        if (model == null)
+        {
+            return NotFound();
+        }
+
+        ViewBag.Roles = _userService.GetRoles();
+        return View(model);
+    }
+
+    [HttpPost("EditUser/{id}")]
+public IActionResult EditUser([FromForm] EditUserViewModel model, int id)
+{
+    if (!ModelState.IsValid)
+    {
+        ViewBag.Roles = _userService.GetRoles();
+        return View(model);
+    }
+
+    bool isUpdated = _userService.EditUser(id, model);
+    if (!isUpdated)
+    {
+        return NotFound();
+    }
+
+    return RedirectToAction("UsersList");
+}
 }

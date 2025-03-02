@@ -25,4 +25,9 @@ public interface IUserService
     List<Role> GetRoles();
     
     bool AddUser(AddUserViewModel model);
+
+    EditUserViewModel GetUserForEdit(int id);
+
+    bool EditUser(int id, EditUserViewModel model);
+    
 }
